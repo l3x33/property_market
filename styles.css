@@ -1,0 +1,36 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #eeeded00;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(4, 4, 4);
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+}
+
+h1{
+   background-color:Light gray;
+   color:green;
+}
