@@ -16,11 +16,11 @@ $clients = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <table>
     <thead>
         <tr>
-            <th>Name</th>
-            <th>Budget</th>
-            <th>Address </th>
-            <th>City</th>
-            <th>Price</th>
+            <th><?=__('Name')?></th>
+            <th><?=__('Budget')?></th>
+            <th><?=__('Address')?></th>
+            <th><?=__('City')?></th>
+            <th><?=__('Property price')?></th>
         </tr>
     </thead>
     <tbody>
@@ -30,7 +30,7 @@ $clients = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <td><?= $client['budget'] ?></td>
             <td><?= $client['address'] ?></td>
             <td><?= $client['city'] ?></td>
-            <td><?= $client['price'] ?></td>
+            <td><?= $client['price'] ?> $</td>
         </tr>
         <?php endforeach; ?>
     </tbody>

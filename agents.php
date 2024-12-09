@@ -13,9 +13,9 @@ $agents = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <table>
     <thead>
         <tr>
-            <th>Name</th>
-            <th>Phone</th>
-            <th>Email</th>
+            <th><?=__('Name')?></th>
+            <th><?=__('Phone number')?></th>
+            <th><?=__('Email')?></th>
         </tr>
     </thead>
     <tbody>

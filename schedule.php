@@ -24,12 +24,11 @@ $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <table>
     <thead>
         <tr>
-            <th>Agent</th>
-            <th>Phone</th>
-            <th>Property address</th>
-            <th>Appointment date</th>
-            <th>Status</th>
-
+            <th><?=__('Agent')?></th>
+            <th><?=__('Phone number')?></th>
+            <th><?=__('Property address')?></th>
+            <th><?=__('Appointment date')?></th>
+            <th><?=__('Status')?></th>
         </tr>
     </thead>
     <tbody>

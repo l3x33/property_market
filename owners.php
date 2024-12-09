@@ -17,11 +17,11 @@ $owners = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <table>
     <thead>
         <tr>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Property address</th>
-            <th>Type</th>
-            <th>Property price</th>
+            <th><?=__('Name')?></th>
+            <th><?=__('Email')?></th>
+            <th><?=__('Property address')?></th>
+            <th><?=__('Type')?></th>
+            <th><?=__('Property price')?></th>
         </tr>
     </thead>
     <tbody>
@@ -31,7 +31,7 @@ $owners = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <td><?= $owner['email'] ?></td>
             <td><?= $owner['address'] ?></td>
             <td><?= $owner['property_type'] ?></td>
-            <td><?= $owner['price'] ?></td>
+            <td><?= $owner['price'] ?> $</td>
         </tr>
         <?php endforeach; ?>
     </tbody>

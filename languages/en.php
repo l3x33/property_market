@@ -1,3 +1,4 @@
 <?php
-
-$lang = [];
+$lang = [
+    'Title'=> 'Urban Nest'
+];
